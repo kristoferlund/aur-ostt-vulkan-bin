@@ -1,6 +1,6 @@
 pkgbase = ostt-vulkan-bin
 	pkgdesc = Open Speech-to-Text: terminal app for recording and transcribing audio (prebuilt binary, AMD/Intel Vulkan build)
-	pkgver = 0.0.21
+	pkgver = 0.0.22
 	pkgrel = 1
 	url = https://github.com/kristoferlund/ostt
 	arch = x86_64
@@ -15,14 +15,14 @@ pkgbase = ostt-vulkan-bin
 	optdepends = wl-clipboard: clipboard support on Wayland
 	optdepends = xclip: clipboard support on X11
 	optdepends = mpv: better audio playback for `ostt replay`
-	provides = ostt=0.0.21
+	provides = ostt=0.0.22
 	conflicts = ostt
-	source = ostt-0.0.21-vulkan.tar.gz::https://github.com/kristoferlund/ostt/releases/download/v0.0.21/ostt-x86_64-unknown-linux-gnu-vulkan.tar.gz
+	source = ostt-0.0.22-vulkan.tar.gz::https://github.com/kristoferlund/ostt/releases/download/v0.0.22/ostt-0.0.22-x86_64-unknown-linux-gnu-vulkan.tar.gz
 	source = LICENSE
 	source = ostt.bash
 	source = _ostt
 	source = ostt.fish
-	sha256sums = cd713831a586d4fc4c3134eac46e443eed5400417d166243c7247379ca3fd38d
+	sha256sums = 4183cff2b5eb0c5192359ac0e1b863e7e6b38a0de717df47c113990d47058bf9
 	sha256sums = 8bcb6bd9c06c2cce21a54db8e1455c1aa154275667828f772dd74d03272e65bd
 	sha256sums = ca1e19b9f5580b1a9eec2813f5af9c41ea6aac4aa3ee2bedf85effe0399fd4c5
 	sha256sums = eee8a731da1c24283ae7de21f6f748cf1c02c3e17eb38ccbd4b0aebcd93cf9a0
